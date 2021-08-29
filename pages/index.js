@@ -1,4 +1,5 @@
 import { Container, Grid, Paper, AppBar, Toolbar, Typography, Button, Avatar } from '@material-ui/core'
+import CardList from '../src/CardList'
 import Profile from '../src/profile'
 
 export default function Home() {
@@ -27,9 +28,7 @@ export default function Home() {
             item
             md={6}
           >
-            <Paper elevation={3}>
-              <h1>Hello world</h1>
-            </Paper>
+            <CardList/>
           </Grid>
           <Grid
             item
